@@ -48,7 +48,7 @@ namespace rs
 
   bool Application::run()
   {
-    context_->clear();
+    //context_->clear();
     while (!exit_)
     {
       SDL_Event event;
@@ -58,7 +58,7 @@ namespace rs
           exit_ = true;
 
         update(0.0f);
-        swap();
+        //swap();
       }
     }
 

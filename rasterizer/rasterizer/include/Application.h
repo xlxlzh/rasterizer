@@ -2,6 +2,7 @@
 #define _APPLICATION_H_
 
 #include <string>
+#include <SDL.h>
 
 #include "SingleTon.h"
 #include "RenderContext.h"

@@ -2,6 +2,8 @@
 
 #pragma comment(linker, "/subsystem:windows /ENTRY:mainCRTStartup")
 
+#undef main
+
 using namespace rs;
 
 int main(int argc, char *argv[])
